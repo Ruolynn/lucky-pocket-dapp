@@ -9,14 +9,14 @@ import { QueryClientProvider, QueryClient } from '@tanstack/react-query'
 const config = getDefaultConfig({
   appName: 'LuckyPocket',
   projectId: process.env.NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID || 'YOUR_PROJECT_ID', // 从 https://cloud.walletconnect.com 获取
-  chains: [base],
+  chains: [base] as const,
 })
 
 const queryClient = new QueryClient()
 
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <WagmiProvider config={config}>
+    <WagmiProvider config={config as any}>
       <QueryClientProvider client={queryClient}>
         <RainbowKitProvider>
           {children}
