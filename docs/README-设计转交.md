@@ -10,14 +10,19 @@
 
 ### 1. 查看设计原型
 
-**主链接** (如可访问):
+**永久访问链接** (生产环境):
 ```
-https://v0-lucky-pocket-dapp-ruolynn-4247-ruolynn-4247s-projects.vercel.app
+https://lucky-pocket-dapp.vercel.app
 ```
 
-**临时分享链接** (23小时有效):
+**生产环境分享链接** (23小时有效):
 ```
-https://v0-lucky-pocket-dapp-ruolynn-4247-ruolynn-4247s-projects.vercel.app?_vercel_share=KD4c8GmJYTYG9cMmYVn1YkdlSS6GyWC7
+https://lucky-pocket-dapp.vercel.app/?_vercel_share=jADu6hlc0tCLbwxnZaS36mAMOMGMaKDB
+```
+
+**原始 v0 设计预览** (23小时有效):
+```
+https://v0-lucky-pocket-dapp.vercel.app/?_vercel_share=LzXaSMAfddY5MiS1I22cllNDcQoaw7Gf
 ```
 
 ⚠️ **重要**: 如果临时链接已过期，请联系设计负责人获取新的访问链接。
@@ -115,7 +120,9 @@ docs/
 
 - **设计规范文档**: [设计转交文档.md](./设计转交文档.md)
 - **转交清单**: [设计转交清单.md](./设计转交清单.md)
-- **预览链接**: [Vercel 部署](https://v0-lucky-pocket-dapp-ruolynn-4247-ruolynn-4247s-projects.vercel.app)
+- **预览链接**: 
+- [生产环境](https://lucky-pocket-dapp.vercel.app)
+- [v0 原始设计](https://v0-lucky-pocket-dapp.vercel.app)
 
 ---
 

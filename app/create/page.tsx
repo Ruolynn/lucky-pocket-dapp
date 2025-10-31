@@ -1,14 +1,15 @@
-export default function DashboardPage() {
+export default function CreatePage() {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
-        Dashboard
+        Create Lucky Pocket
       </h1>
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
         <p className="text-gray-600 dark:text-gray-400">
-          仪表板功能开发中...
+          创建红包功能开发中...
         </p>
       </div>
     </div>
   )
 }
+
