@@ -1,13 +1,29 @@
+import { DashboardHeader } from "@/components/dashboard/dashboard-header"
+import { StatsCards } from "@/components/dashboard/stats-cards"
+import { ActivityChart } from "@/components/dashboard/activity-chart"
+import { RecentPockets } from "@/components/dashboard/recent-pockets"
+import { QuickActions } from "@/components/dashboard/quick-actions"
+
 export default function DashboardPage() {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
-        Dashboard
-      </h1>
-      <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
-        <p className="text-gray-600 dark:text-gray-400">
-          仪表板功能开发中...
-        </p>
+    <div className="min-h-screen liquid-glass-bg">
+      <DashboardHeader />
+
+      <div className="container mx-auto px-4 py-8 relative z-10">
+        <div className="space-y-8">
+          <StatsCards />
+
+          <div className="grid lg:grid-cols-3 gap-8">
+            <div className="lg:col-span-2">
+              <ActivityChart />
+            </div>
+            <div>
+              <QuickActions />
+            </div>
+          </div>
+
+          <RecentPockets />
+        </div>
       </div>
     </div>
   )
